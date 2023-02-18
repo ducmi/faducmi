@@ -1,0 +1,2 @@
+# faducmi
+new to python
