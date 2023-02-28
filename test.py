@@ -48,3 +48,43 @@
 #print (name.count("o"))
 #print (name.replace("o","a"))   #replace the lettere you want to another letter
 #print (name*3) #x3 print
+
+#TYPE CASTING
+#x = 1   #int(binh thuong) int la tinh toan dc
+#y = 2.0 #float(co dau .) float se them .0 dang sau (va tinh toan dc)
+#z = "3" #str(co dau "")str thi = bnhh ra dung nhu the
+
+#y = int(y)
+#z = int(z) # them int  thi co the tinh toan duoc (khong thi sex chi in 3 dau 3)
+
+#print (x)
+#print (y)
+#print (z*3)
+
+#USER INPUT
+
+#name = input("what is your name?:  ")
+#age = int(input("how old are you?:  "))
+#height = float(input("how tall are you?:  "))
+
+#print("Hello "+name)
+#print("you are "+str(age)+"years old ")
+#print("you are "+str(height)+"cm height")
+
+#MATH FUNCTION
+
+#pi = 3.14
+#x = 1
+#y = 2
+#z = 3
+
+#print(round(pi))
+#print(math.ceil(pi))
+#print(math.floor(pi))
+#print(abs(pi))
+#print(pow(pi,2))
+#print(math.sqtr(420))
+#print(max(x,y,z))
+#print(min(x,y,z))
+
+
