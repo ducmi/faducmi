@@ -39,7 +39,7 @@
 #name = "Bro Code"
 
 #print (len(name))
-#print(name.find("o"))  #tim thu tu chu trong dong nhat dinh
+#print (name.find("o"))  #tim thu tu chu trong dong nhat dinh
 #print (name.capitalize())   
 #print (name.upper())   #dau in hoa
 #print (name.lower())   #dau thuong
@@ -87,4 +87,74 @@
 #print(max(x,y,z))
 #print(min(x,y,z))
 
+
+#indexing
+#name = "Bro Code"
+
+#first_name = name[0:3]
+#last_name = name[4:]
+#funky_name = name[0:8:3]
+#reverse_name = name[::-1]
+#print(reverse_name)
+
+#cau lenh if
+#age = int(input("how old are you?:  "))
+
+#if age >= 18:
+#    print ("you are old enough")
+#elif age == 100:
+#    print ("you are too old")
+#else:
+#    print ("you are too young")
+
+#temp = int(input("what's the temperature: "))
+
+#if temp >=0 and temp <= 30:
+#    print ("the tenperature today is good!")
+#    print ("go touch some grass!")
+#elif not (temp >=0 and temp <= 30): #if/elif not la nguoc lai
+#    print ("the weather is really bad")
+
+#WHILE LOOPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+#a statement that will execute its block of code, as long as its condition remains true
+
+#while 1==1:
+#    print("help im stuck in a loop!")
+
+#name = ""
+
+#while len(name) == 0:               #loop bat phai dien ten bang duoc!
+#    name = input("enter your name:  ")
+
+#print("hello!" + name)
+
+#for i in range
+
+#for i in range(10):
+#    print(i+1)
+
+#for i in range(50,100+1,2):
+#    print (i)
+
+#for i in "Bro Code":
+#    print (i)
+
+
+#import time
+
+#for seconds in range(10,0,-1):
+#    print (seconds)
+#    time.sleep(1)
+#print("Happy new year!") 
+
+#NESTED LOOPPPPPPPPPsssssssssssssssssssssssssssssssssss
+
+#rows = int(input("how many rows:  "))
+#columns = int(input("how many columns:  "))
+#symbol = input("enter a symbol:  ")
+
+#for i in range(rows):
+#    for j in range(columns):
+#        print (symbol, end="")
+#    print(symbol)
 
